@@ -4,8 +4,12 @@ comando para inicializar un proyecto en git
 comando para agregar el seguimiento de un archivo
 --git add <file>
 
+comando para agregar todos los documentos cambiados
+-- git add .
+
 comando para la generacion de un punto de restauracion
 -- git commit
+-- git commit -m "<mensaje>"
 
 comando para ver las modificaciones en el proyecto
 -- git status
@@ -18,5 +22,15 @@ comando para descartar los cambios realizados en un archivo
 
 comando para ver lo que se ha modificado en un archivo
 -- git diff <file>
+
+comando para verificar en que branch estas
+--git branch
+
+comando para generar un nuevo branch
+-- git branch <nombre>
+
+comando para cambiar de branch
+-- git checkout <nombre>
+
 
 
